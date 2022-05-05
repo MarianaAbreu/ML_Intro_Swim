@@ -6,7 +6,7 @@ Workshop Introduction to Machine Learning using Swimming Examples
 1. Download file to read
 2. Open and copy the google sheet to you own drive
 
-[Open Google Sheets](https://docs.google.com/spreadsheets/d/1yIz6kJ5t19BigsNlHxu8BjBJWgoee4vm-rpZInNG0gE/edit?usp=sharing])
+[![Open Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1yIz6kJ5t19BigsNlHxu8BjBJWgoee4vm-rpZInNG0gE/edit?usp=sharing])
 
 3. Upload the data
 4. Replace all . by , 

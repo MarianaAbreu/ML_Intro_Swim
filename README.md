@@ -7,7 +7,7 @@ Workshop Introduction to Machine Learning using Swimming Examples
 2. Open and copy the google sheet to you own drive
 
 [![Open Google Sheets](https://img.shields.io/badge/Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets&logoColor=white)](https://docs.google.com/spreadsheets/d/1yIz6kJ5t19BigsNlHxu8BjBJWgoee4vm-rpZInNG0gE/edit?usp=sharing])
-*Sw01_Processing.ipynb*
+*Sw01_ExcelProcessing.ipynb*
 
 3. Upload the data
 4. Replace all . by , 
@@ -19,7 +19,7 @@ Workshop Introduction to Machine Learning using Swimming Examples
 1. Open and copy the notebook to your own drive
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I1_dQ8sF3dFk3nE05YFVgCND_q-7l04u?usp=sharing)
-*Sw01_BitalinoSignalProcessing.ipynb*
+*Sw01_ColabProcessing.ipynb*
 
 2. Clone this repository
 3. Read the data
@@ -31,7 +31,7 @@ Workshop Introduction to Machine Learning using Swimming Examples
 1. Open and copy the notebook to your own drive
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I1_dQ8sF3dFk3nE05YFVgCND_q-7l04u?usp=sharing)
-*Sw01_BitalinoSignalProcessing.ipynb*
+*Sw02_ColabClassification.ipynb*
 
 2. Clone this repository
 3. Read the features and the labels

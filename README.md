@@ -16,12 +16,13 @@ Workshop Introduction to Machine Learning using Swimming Examples
 ## 2. Using Google Collaboratory to open and process data:
 
 1. Open and copy the notebook to your own drive
+
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I1_dQ8sF3dFk3nE05YFVgCND_q-7l04u?usp=sharing)
 
-3. Clone this repository
-4. Read the data
-5. Plot "Roll" axis over "Time"
-6. Calculate features from all signal sources.
+2. Clone this repository
+3. Read the data
+4. Plot "Roll" axis over "Time"
+5. Calculate features from all signal sources.
 
 ## 3. Classification of Swimming Styles using Machine Learning:
 

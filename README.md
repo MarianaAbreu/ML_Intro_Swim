@@ -30,7 +30,7 @@ Workshop Introduction to Machine Learning using Swimming Examples
 
 1. Open and copy the notebook to your own drive
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I1_dQ8sF3dFk3nE05YFVgCND_q-7l04u?usp=sharing)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e68pcJLN2lcxP0B47dw9yud5CNlEo5s9?usp=sharing)
 *Sw02_ColabClassification.ipynb*
 
 2. Clone this repository

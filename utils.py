@@ -97,6 +97,6 @@ def plot_confusion_matrix(y_true, y_pred, normalize=False, save=True, show=True,
 
     if save:
         plt.savefig(title + '.png', transparent=True)
-
+    # show figure
     if show:
         plt.show()

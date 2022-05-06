@@ -1,8 +1,8 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
-import seaborn as sns
-from sklearn.metrics import confusion_matrix
+# import seaborn as sns
+# from sklearn.metrics import confusion_matrix
 
 
 def plot_one(data, column='Roll', sampling_rate=1000, save=True, show=True, figname='swimplot'):
@@ -15,7 +15,7 @@ def plot_one(data, column='Roll', sampling_rate=1000, save=True, show=True, fign
     :param show: to show the figure
     :return: None
     """
-    sns.set()
+    # sns.set()
     time = ((data['Time'] - data['Time'][0])/sampling_rate)
     fig = plt.figure(figsize=(20, 5))
     plt.plot(time, data[column], linewidth=4)
@@ -40,7 +40,7 @@ def plot_all(data, column_list, together=True, sampling_rate=1000, save=True, sh
     :param figname: name to save the figure under
     :return: None
     """
-    sns.set()
+    # sns.set()
     time = ((data['Time'] - data['Time'][0]) / sampling_rate)
     if together:
         plt.figure(figsize=(20, 5))
@@ -82,11 +82,11 @@ def plot_confusion_matrix(y_true, y_pred, normalize=False, save=True, show=True,
     cm = confusion_matrix(y_true, y_pred, labels=true_labels)
     if normalize:
         cm = np.round(cm / np.max(cm), 2)
-    sns.set(font_scale=2)
+    # sns.set(font_scale=2)
     plt.figure(figsize=(10, 5))
     ax = plt.subplot(1, 1, 1)
     ax.set_title(title)
-    sns.heatmap(cm, annot=True, ax=ax, fmt='g', cmap='Blues')  # annot=True to annotate cells
+    # sns.heatmap(cm, annot=True, ax=ax, fmt='g', cmap='Blues')  # annot=True to annotate cells
     # labels, title and ticks
     ax.set_xlabel('Predicted', fontsize=20)
     ax.xaxis.set_label_position('top')
@@ -97,6 +97,11 @@ def plot_confusion_matrix(y_true, y_pred, normalize=False, save=True, show=True,
 
     if save:
         plt.savefig(title + '.png', transparent=True)
-    # show figure
+
     if show:
         plt.show()
+
+
+import pickle
+data = pickle.load(open('Transferências\\swim_pitch_segmented','rb'))
+print('here')
